@@ -71,7 +71,7 @@ h6 {
 }
 /* main css code */
 body {
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .gameStarter {
   height: 100%;
@@ -113,7 +113,7 @@ body {
   justify-content: space-between;
   margin: 0 auto;
   border: 0.1em solid var(--brdr-col);
-  width: 1200px;
+  width: 840px;
   font-size: 2rem;
   padding: 0.3em 0.4em;
   text-transform: capitalize;
@@ -127,10 +127,10 @@ body {
 .carteContainer {
   display: flex;
   flex-wrap: wrap;
-  width: 1200px;
-  height: 1000px;
-  gap: 30px;
-  margin: 20px auto;
+  width: 840px;
+  height: 80vh;
+  gap: 10px;
+  margin: 10px auto;
   perspective: 700px;
 }
 .carteContainer .box {
@@ -139,9 +139,9 @@ body {
   transition: transform 0.5s;
   transform-origin: top left;
   transform-style: preserve-3d;
-  flex: 1 0 200px;
+  flex: 0 0 160px;
   border: 5px solid var(--brdr-col);
-  max-height: 200px;
+  max-height: 140px;
 }
 .carteContainer .box .face {
   position: absolute;
